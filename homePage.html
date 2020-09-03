@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sydney Chiang</title>
+    <link rel="icon" href="sydneychianglogo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500&family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="homePage.css">
+</head>
+<body>
+
+
+<!--ABOUT ME-->
+<!--Hello! I am a computer science major originally from Orlando, Florida, now located in Irvine, California.
+
+In my free time, I like rollerskating, exploring new areas, and playing board/video games. -->
+
+
+<nav class="sticky-top">
+    <div class="header"><a id="logo" href="#headerBackground">Sydney Chiang</a>
+    <div class="btn-group">
+      <button type="button" class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <img src="menu.svg" alt="" id="hamburger">
+      </button>
+      <div class="dropdown-menu dropdown-menu-right">
+        <a class="dropdown-item" href="#education">Education</a>
+        <a class="dropdown-item" href="#work">Work</a>
+        <a class="dropdown-item" href="#projectsDiv">Projects</a>
+        <a class="dropdown-item" href="#awards">Awards</a>
+      </div>
+    </div>
+    </div>
+
+</nav>
+
+
+
+
+
+<div id="headerBackground">
+    <img class="cover" src="sydneyandtinaNB.png">
+</div>
+
+
+
+
+<h1 id="education">Education</h1>
+<div class="entry">
+    <img class="entryPic" src="WinterParkHS.png" align="left" alt="">
+    <span class="test">
+        <p class="title">Winter Park High School <span class="rightAlign">2014-2018</span></p>
+        <span class="leftAlign">International Baccalaureate Diploma <span class="rightAlign">Winter Park, Florida</span></span>
+        <span class="left">2014-2018</span>
+        <span class="left">Winter Park, FL</span>
+    </span>
+</div>
+
+
+
+
+
+<div class="entry bottom">
+    <img class="entryPic" src="uci.png" align="left" alt="">
+    <span class="test">
+        <p class="title">University of California Irvine<span class="rightAlign year">2018-2022</span></p>
+        <span class="leftAlign">Computer Science, B.S. <span class="rightAlign location">Irvine, California</span></span>
+        <span class="left">2018-2022</span>
+        <span class="left">Irvine, California</span>
+
+    </span>
+
+</div>
+
+
+
+<h1 id="work">Work & Volunteer</h1>
+<div class="entry">
+    <img class="entryPic" src="Circlek.png" align="left" alt="">
+    <span class="test">
+        <p class="title">Circle K International <span class="rightAlign">2018-Present</span></p>
+        <span class="leftAlign">General Member</span>
+        <span class="left">2018-Present</span>
+        <span class="description">
+            Member of a service organization that emphasizes service, leadership, and fellowship-- clocking
+            in a total of 220 hours in the three tenets of the club.
+            <br>
+            <br>
+            Leadership Roles:
+            <br>
+
+            Hunger, Over Easy Marketing Chair <span class="rightAlign">2019-2020</span>
+            <span class="left">2019-2020</span>
+            <br>
+            Hunger, Over Easy Executive Assistant <span class="rightAlign">2020-2021</span>
+            <span class="left">2020-2021</span>
+        </span>
+    </span>
+</div>
+
+
+
+<div class="entry bottom">
+    <img class="entryPic" src="uci.png" align="left" alt="">
+    <span class="test">
+        <p class="title">University of California Irvine<span class="rightAlign">2020-Present</span></p>
+        <span class="leftAlign">Campus Representative</span>
+        <span class="left">2020-Present</span>
+        <span class="description">
+            Student-staff, affiliated with UCI's Office of Undergraduate Admissions, selected to share the UCI experience with campus visitors, particularly prospective students.
+        </span>
+
+    </span>
+</div>
+
+
+
+<h1 id="projectsDiv">Projects</h1>
+
+<div class="entryCopy projects">
+    <div id="buttons">
+        <button class="btn active" onclick="filterProject('all')">Show All</button>
+        <button class="btn" onclick="filterProject('figma')">Figma</button>
+        <button class="btn" onclick="filterProject('html')">HTML</button>
+        <button class="btn" onclick="filterProject('css')">CSS</button>
+        <button class="btn" onclick="filterProject('js')">JavaScript</button>
+        <button class="btn" onclick="filterProject('uiux')">UI/UX Design</button>
+        <button class="btn" onclick="filterProject('adobexd')">Adobe XD</button>
+        <button class="btn" onclick="filterProject('unity')">Unity</button>
+        <button class="btn" onclick="filterProject('c#')">C#</button>
+        <!--<button class="btn" onclick="filterProject('python')">Python</button>-->
+    </div>
+
+
+    <div id="projectdiv">
+        <span class="project adobexd uiux">
+            <img class="snapshot" src="respawnd.png" alt="">
+            <div class="name">Respawn'd</div>
+            <p>An interactive mobile prototype of a social media app for new gamers. Created in response to the Adobe & Activision Creative Jam.</p>
+            <button>Adobe XD</button>
+            <button>UI/UX Design</button>
+        </span>
+
+        <span class="project html css js figma">
+            <img class="snapshot" src="valentographer.png" alt="" id="shift1">
+            <div class="name">Valentographer Site</div>
+            <p>Portfolio website for a local photographer.</p>
+            <button>Figma</button>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JavaScript</button>
+        </span>
+
+        <span class="project unity c#">
+            <img class="snapshot" src="smackuci.png" alt="">
+            <div class="name">Smack UCI</div>
+            <p>A parody of Super Smash Bros using UCI professors. Created during Hack UCI 2020.</p>
+            <button>Unity</button>
+            <button>C#</button>
+        </span>
+
+        <span class="project html css js figma">
+            <img class="snapshot" src="skipbo.png" alt="">
+            <div class="name">Skip-Bo Online</div>
+            <p>An online multiplayer game based on the Skip-Bo card game. Under construction.</p>
+            <button>Figma</button>
+            <button>HTML</button>
+            <button>CSS</button>
+            <button>JavaScript</button>
+        </span>
+
+    </div>
+</div>
+
+
+<h1 id="awards">Awards</h1>
+<span class="content">
+
+    <div class="entry bottom">
+        <img class="entryPic" src="istf.gif" align="left" alt="">
+        <span class="test">
+            <p class="title">Internet Science  and Technology Fair<span class="rightAlign">2017</span></p>
+            <span class="leftAlign">Meritorious Achievement Award</span>
+            <span class="left">2017</span>
+            <span class="description">Awarded to the top 10 teams out of 120 teams (representing 470 students) from the national Internet Science and
+            Technology Fair hosted by the University of Central Florida. My team of six researched and designed a compact air purifier using filter technology to prevent the development
+            and spread of respiratory diseases among animals.</span>
+        </span>
+
+    </div>
+
+
+
+</span>
+
+
+<div id="footer">
+    <a href="https://github.com/sydneychiang?tab=repositories">Github</a>
+    //
+    <a href="https://www.linkedin.com/in/sydneychiang/">LinkedIn</a>
+    //
+    <a href="mailto:sydney_chiang@yahoo.com">Email</a>
+    //
+    <a href="">Resume</a>
+    <br>
+    Sydney Chiang
+    <br>
+    2020
+
+    <!--<br>-->
+    <!--Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>-->
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="homePage.js"></script>
+
+</body>
+
+</html>
+
+
+
