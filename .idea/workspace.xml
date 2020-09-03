@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d39573d0-c138-4870-a934-d7e5bebd2314" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/homePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/homePage.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="500">
+                <state relative-caret-position="2490">
                   <caret line="166" column="122" selection-start-line="166" selection-start-column="122" selection-end-line="166" selection-end-column="122" />
                 </state>
               </provider>
@@ -31,7 +30,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/homePage.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
+                <state relative-caret-position="585">
                   <caret line="309" column="16" selection-start-line="309" selection-start-column="16" selection-end-line="309" selection-end-column="16" />
                 </state>
               </provider>
@@ -52,7 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>entry</find>
       <find>content</find>
       <find>p</find>
       <find>title</find>
@@ -80,8 +78,9 @@
       <find>project</find>
       <find>leftalign</find>
       <find>span</find>
-      <find>projButtons</find>
       <find>name</find>
+      <find>link</find>
+      <find>projButtons</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -157,9 +156,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="23" width="1402" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15785663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15785663" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -194,6 +192,16 @@
     <entry file="file://$PROJECT_DIR$/sydandsophNB.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../tvTracker/beginning.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2490">
+          <caret line="166" column="122" selection-start-line="166" selection-start-column="122" selection-end-line="166" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/homePage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -201,19 +209,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tvTracker/beginning.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="166" column="122" selection-start-line="166" selection-start-column="122" selection-end-line="166" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homePage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
+        <state relative-caret-position="585">
           <caret line="309" column="16" selection-start-line="309" selection-start-column="16" selection-end-line="309" selection-end-column="16" />
         </state>
       </provider>
