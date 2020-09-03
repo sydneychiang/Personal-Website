@@ -300,3 +300,13 @@ a:hover{
     font-size: 0.9em;
     color: #434c5d;
 }
+
+
+.link{
+    color: #76ac86;
+}
+
+.link:hover{
+    opacity: 0.4;
+    color: #76ac86;
+}
