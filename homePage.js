@@ -74,6 +74,11 @@ window.addEventListener("resize", function(){
 
 });
 
+var logo = document.getElementById("logo");
+logo.addEventListener("click", function(){
+     window.scrollTo(0,0);
+});
+
 
 function resizeText(align, displayType){
     for (var i = 0; i < align.length; i++){

@@ -285,8 +285,7 @@ a:hover{
 
 #logo{
     color: black;
-
-
+    cursor: pointer;
 }
 
 #logo:hover{
@@ -302,11 +301,11 @@ a:hover{
 }
 
 
-.link{
-    color: #76ac86;
+.project a{
+    color: #c9998d;
 }
 
-.link:hover{
+.project a:hover{
     opacity: 0.4;
-    color: #76ac86;
+    color: #c9998d;
 }
